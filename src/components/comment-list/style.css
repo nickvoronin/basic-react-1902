@@ -1,0 +1,18 @@
+.comments-list {
+
+}
+.comments-list.comments-list-exiting {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
+}
+.comments-list.comments-list-exited {
+    opacity: 0.01;
+}
+.comments-list.comments-list-entering {
+    opacity: 0.01;
+}
+.comments-list.comments-list-entered {
+    opacity: 1;
+    transition: opacity 1000ms ease-in;
+}
+
