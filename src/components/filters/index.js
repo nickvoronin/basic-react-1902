@@ -8,10 +8,7 @@ import { setDateFilter, selectArticles } from '../../AC'
 class Filters extends Component {
     static propTypes = {
         articles: PropsTypes.array,
-        dateRange: PropsTypes.shape({
-            from: PropsTypes.any.isRequired,
-            to: PropsTypes.any.isRequired,
-        }).isRequired,
+        dateRange: PropsTypes.object.isRequired,
         selectedArticles: PropsTypes.array.isRequired,
     };
 
